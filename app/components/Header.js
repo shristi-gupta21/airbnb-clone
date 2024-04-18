@@ -12,7 +12,7 @@ export const Header = () => {
           priority={true}
         />
       </a>
-      <ul className="flex list-none gap-x-10 gap-y-4 px-6">
+      <ul className="flex list-none gap-x-10 gap-y-4 px-6 text-lg">
         <a>
           <li>Stays</li>
         </a>
@@ -24,7 +24,7 @@ export const Header = () => {
         </a>
       </ul>
       <div className="flex items-center gap-x-4">
-        <a className="text-sm py-6 px-2">Airbnb your home</a>
+        <a className=" py-6 px-2">Airbnb your home</a>
         <Image src={"/images/globe.svg"} width={16} height={16} />
         <div className="border rounded-full py-1.5 pl-3.5 pr-1.5 flex items-center gap-3.5">
           <Image src={"/images/hamburger.svg"} width={16} height={16} />

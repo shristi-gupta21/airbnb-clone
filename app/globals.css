@@ -3,5 +3,6 @@
 @tailwind utilities;
 
 body {
-  font-family: Circular, -apple-system;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    "Helvetica Neue", sans-serif;
 }
