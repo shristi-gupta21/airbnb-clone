@@ -1,5 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import { Avatar } from "@/icons/Avatar";
+import { Globe } from "@/icons/Globe";
+import { Hamburger } from "@/icons/Hamburger";
 export const Header = () => {
   return (
     <header className="md:px-20 h-20 flex items-center justify-between">
@@ -25,10 +28,10 @@ export const Header = () => {
       </ul>
       <div className="flex items-center gap-x-4">
         <a className=" py-6 px-2">Airbnb your home</a>
-        <Image src={"/images/globe.svg"} width={16} height={16} />
+        <Globe color={"#666666"} height={"16px"} />
         <div className="border rounded-full py-1.5 pl-3.5 pr-1.5 flex items-center gap-3.5">
-          <Image src={"/images/hamburger.svg"} width={16} height={16} />
-          <Image src={"/images/avatar.svg"} width={32} height={32} />
+          <Hamburger color={"#666666"} width={"16px"} height={"16px"} />
+          <Avatar color={"#666666"} height={"32px"} />
         </div>
       </div>
     </header>

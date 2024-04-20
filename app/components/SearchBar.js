@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { Search } from "@/icons/Search";
 
 export const SearchBar = () => {
   return (
@@ -41,13 +42,7 @@ export const SearchBar = () => {
           />
         </div>
         <button className="h-12 w-12 rounded-full bg-darkOrange flex items-center justify-center mr-2">
-          <Image
-            src={"/images/search-logo.svg"}
-            width={12}
-            height={12}
-            className="text-white"
-            alt="Search Icon"
-          />
+          <Search color={"white"} />
         </button>
       </div>
     </div>
